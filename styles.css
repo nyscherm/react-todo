@@ -1,0 +1,21 @@
+body {
+  margin-left: 20px;
+    font-family: 'Raleway', sans-serif;
+    color: #333;
+}
+input {
+  margin-right: 10px;
+}
+li {
+  list-style: none;
+}
+li div {
+  margin-bottom: 4px;
+  padding-left: 10px;
+}
+
+li div:after{
+  content: "x";
+  margin-left: 10px;
+  color: #aaa;
+}
